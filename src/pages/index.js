@@ -13,6 +13,7 @@ const Home = () => {
         alignItems: ['center', 'flex-start', 'flex-start'],
         justifyContent: ['center', 'center', 'space-around'],
         flexDirection: ['column-reverse', 'column-reverse', 'row'],
+        order: 1,
         background: `url(${backgroundImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -21,7 +22,7 @@ const Home = () => {
       }}
     >
       <PaySelection />
-      <Copy header={'Resilient Coders'} p={'give us money pls'} />
+      <Copy header={'Equity in Tech'} p={'Hello'} />
     </Box>
   )
 }

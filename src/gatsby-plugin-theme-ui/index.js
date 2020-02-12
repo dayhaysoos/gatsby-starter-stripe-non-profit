@@ -7,4 +7,17 @@ export default merge(baseTheme, {
     secondary: '#21262D',
     text: '#fff',
   },
+  // default styles
+  planList: {
+    button: {
+      lastClicked: {
+        backgroundColor: 'primary',
+        color: 'text',
+      },
+      notClicked: {
+        backgroundColor: 'muted',
+        color: 'gray',
+      },
+    },
+  },
 })
